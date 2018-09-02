@@ -1,31 +1,13 @@
 #!/bin/ruby
 
-=begin
 def methodPublishDataStreamKey()
-string='{
-  "method" => "publish",
-  "params" => [
-    "?1",
-    "?2",
-    "?3"
-  ],
-  "id" => 1,
-  "chain_name" => "?3"
-}'
-
-print string.to_json.strip
-
-exit 0
-
-return string.strip
-end
-=end
-
-
-
-def methodPublishDataStreamKey()
-#string='{"method" => "publish","params" => ["?1","?2","?3"],"id" => ?4,"chain_name" => "?5"}'
+#params=stream,key,dataexa,id,chainname
 string='{"method":"publish","params":["?1","?2","?3"],"id":?4,"chain_name":"?5"}'
 return string
 end
 
+def methodlistStreamKeyTransactions()
+#params=stream,key,id,chainname
+string='{"method":"liststreamkeyitems","params":["?1","?2"],"id":?3,"chain_name":"?4"}'
+return string
+end

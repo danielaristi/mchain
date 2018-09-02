@@ -15,6 +15,19 @@ def insertDataStreamKey(server, dato)
 	execRest(server,method)
 end
 
+def listTransactionsStreamKey(server, dato)
+        method=methodlistStreamKeyTransactions()
+
+        method=method.gsub '?1', dato.getStream
+        method=method.gsub '?2', dato.getKey
+        method=method.gsub '?3', '1'
+        method=method.gsub '?4', server.getChain
+	p method
+
+	execRest(server,method)
+end
+
+
 def readFile(pathlog)
 	file=''
 	File.foreach(pathlog) do |line|

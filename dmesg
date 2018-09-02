@@ -1,0 +1,1000 @@
+[28810.950549] usb usb1: root hub lost power or was reset
+[28810.950629] usb usb2: root hub lost power or was reset
+[28810.954440] ehci-pci 0000:00:1a.0: cache line size of 64 is not supported
+[28810.954533] ehci-pci 0000:00:1d.0: cache line size of 64 is not supported
+[28810.955297] sd 0:0:0:0: [sda] Starting disk
+[28811.053668] r8169 0000:04:00.2 enp4s0f2: link down
+[28811.294695] ata3: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+[28811.303373] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[28811.303381] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[28811.317411] usb 1-1: reset high-speed USB device number 2 using ehci-pci
+[28811.317425] usb 2-1: reset high-speed USB device number 2 using ehci-pci
+[28811.317559] usb 3-2: reset full-speed USB device number 2 using xhci_hcd
+[28811.318715] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[28811.318723] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[28811.321146] ata3.00: configured for UDMA/100
+[28811.677464] usb 3-1: reset high-speed USB device number 7 using xhci_hcd
+[28811.760239] usb 1-1.3: reset high-speed USB device number 3 using ehci-pci
+[28811.877359] PM: resume devices took 0.851 seconds
+[28811.877419] OOM killer enabled.
+[28811.877421] Restarting tasks ... done.
+[28812.040699] PM: suspend exit
+[28812.063423] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[28812.169317] r8169 0000:04:00.2 enp4s0f2: link down
+[28812.169427] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[28812.170637] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[28812.257886] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[28812.350204] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[28812.385084] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[28813.111835] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[28813.113544] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[28813.113898] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[28813.113905] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[28813.116935] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[28813.117276] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[28813.117286] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[28813.118684] ata1.00: configured for UDMA/100
+[28813.402499] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[28814.366447] wlp3s0f0: authenticate with d4:7b:b0:04:82:e8
+[28814.368343] wlp3s0f0: send auth to d4:7b:b0:04:82:e8 (try 1/3)
+[28814.369791] wlp3s0f0: authenticated
+[28814.370700] wlp3s0f0: associate with d4:7b:b0:04:82:e8 (try 1/3)
+[28814.374602] wlp3s0f0: RX AssocResp from d4:7b:b0:04:82:e8 (capab=0x411 status=0 aid=2)
+[28814.374687] wlp3s0f0: associated
+[28814.609418] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0f0: link becomes ready
+[28842.902741] mei_me 0000:00:16.0: timer: init clients timeout hbm_state = 1.
+[28842.902755] mei_me 0000:00:16.0: unexpected reset: dev_state = INIT_CLIENTS fw status = 1E000245 60000106 
+[30916.931577] usb 3-1: USB disconnect, device number 7
+[32943.721659] CompositorTileW[27669]: segfault at 39 ip 0000555dd9f95670 sp 00007f373e86f1d8 error 6 in chrome[555dd9de3000+614c000]
+[33544.056894] traps: chrome[21933] general protection ip:555ddb565f4d sp:7ffdecf8a230 error:0 in chrome[555dd9de3000+614c000]
+[33880.002038] usb 3-1: new high-speed USB device number 8 using xhci_hcd
+[33880.128722] usb 3-1: New USB device found, idVendor=10d6, idProduct=1101
+[33880.128730] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[33880.128735] usb 3-1: Product: USB CARDREADER
+[33880.128739] usb 3-1: Manufacturer: ACTIONS
+[33880.128743] usb 3-1: SerialNumber: 4512482ADF0FEEEE
+[33880.131064] usb-storage 3-1:1.0: USB Mass Storage device detected
+[33880.131321] scsi host6: usb-storage 3-1:1.0
+[33881.168948] scsi 6:0:0:0: Direct-Access     ACTIONS  USB DISK FOB 2.0 0    PQ: 0 ANSI: 0 CCS
+[33881.170650] sd 6:0:0:0: Attached scsi generic sg2 type 0
+[33881.171158] sd 6:0:0:0: [sdb] Attached SCSI removable disk
+[33885.069252] usb 3-1: USB disconnect, device number 8
+[36073.508214] chrome[29468]: segfault at e0 ip 0000555ddb880562 sp 00007ffdecf8c1d0 error 6 in chrome[555dd9de3000+614c000]
+[36572.946106] chrome[29901]: segfault at a5c ip 0000555ddb4c0835 sp 00007ffdecf89e50 error 4 in chrome[555dd9de3000+614c000]
+[37038.635770] traps: ServiceWorker t[30288] general protection ip:555ddb519c37 sp:7f373c2ed7a8 error:0 in chrome[555dd9de3000+614c000]
+[37406.212146] wlp3s0f0: deauthenticating from d4:7b:b0:04:82:e8 by local choice (Reason: 3=DEAUTH_LEAVING)
+[37406.357761] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[37407.563460] PM: suspend entry (deep)
+[37407.563464] PM: Syncing filesystems ... done.
+[37409.425755] Freezing user space processes ... (elapsed 0.024 seconds) done.
+[37409.450606] OOM killer disabled.
+[37409.450607] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[37409.452601] Suspending console(s) (use no_console_suspend to debug)
+[37409.462313] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+[37409.522432] sd 0:0:0:0: [sda] Stopping disk
+[37410.268409] PM: suspend devices took 0.816 seconds
+[37410.281656] ACPI: EC: interrupt blocked
+[37410.294598] ACPI: Preparing to enter system sleep state S3
+[37410.346414] ACPI: EC: event blocked
+[37410.346416] ACPI: EC: EC stopped
+[37410.346417] PM: Saving platform NVS memory
+[37410.346603] Disabling non-boot CPUs ...
+[37410.354524] smpboot: CPU 1 is now offline
+[37410.364874] smpboot: CPU 2 is now offline
+[37410.372807] smpboot: CPU 3 is now offline
+[37410.377253] ACPI: Low-level resume complete
+[37410.377312] ACPI: EC: EC started
+[37410.377313] PM: Restoring platform NVS memory
+[37410.379101] Enabling non-boot CPUs ...
+[37410.379154] x86: Booting SMP configuration:
+[37410.379155] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[37410.383176]  cache: parent cpu1 should not be sleeping
+[37410.383458] CPU1 is up
+[37410.383495] smpboot: Booting Node 0 Processor 2 APIC 0x1
+[37410.386323]  cache: parent cpu2 should not be sleeping
+[37410.386561] CPU2 is up
+[37410.386594] smpboot: Booting Node 0 Processor 3 APIC 0x3
+[37410.389476]  cache: parent cpu3 should not be sleeping
+[37410.389995] CPU3 is up
+[37410.399746] ACPI: Waking up from system sleep state S3
+[37410.433854] ACPI: EC: interrupt unblocked
+[37410.446924] usb usb3: root hub lost power or was reset
+[37410.446927] usb usb4: root hub lost power or was reset
+[37410.446928] ACPI: EC: event unblocked
+[37410.446981] usb usb1: root hub lost power or was reset
+[37410.450261] sd 0:0:0:0: [sda] Starting disk
+[37410.450897] ehci-pci 0000:00:1a.0: cache line size of 64 is not supported
+[37410.451038] usb usb2: root hub lost power or was reset
+[37410.454925] ehci-pci 0000:00:1d.0: cache line size of 64 is not supported
+[37410.542930] r8169 0000:04:00.2 enp4s0f2: link down
+[37410.760806] ata3: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+[37410.768886] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[37410.768894] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[37410.773414] usb 3-2: reset full-speed USB device number 2 using xhci_hcd
+[37410.781317] usb 1-1: reset high-speed USB device number 2 using ehci-pci
+[37410.784418] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[37410.784427] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[37410.786833] ata3.00: configured for UDMA/100
+[37410.789269] usb 2-1: reset high-speed USB device number 2 using ehci-pci
+[37411.187301] usb 1-1.3: reset high-speed USB device number 3 using ehci-pci
+[37411.298415] PM: resume devices took 0.852 seconds
+[37411.298475] OOM killer enabled.
+[37411.298477] Restarting tasks ... done.
+[37411.460622] PM: suspend exit
+[37411.683338] usb 3-1: new high-speed USB device number 9 using xhci_hcd
+[37411.809711] usb 3-1: New USB device found, idVendor=10d6, idProduct=1101
+[37411.809719] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[37411.809724] usb 3-1: Product: USB CARDREADER
+[37411.809728] usb 3-1: Manufacturer: ACTIONS
+[37411.809732] usb 3-1: SerialNumber: 4512482ADF0FEEEE
+[37411.810844] usb-storage 3-1:1.0: USB Mass Storage device detected
+[37411.811129] scsi host6: usb-storage 3-1:1.0
+[37412.860833] scsi 6:0:0:0: Direct-Access     ACTIONS  USB DISK FOB 2.0 0    PQ: 0 ANSI: 0 CCS
+[37412.861774] sd 6:0:0:0: Attached scsi generic sg2 type 0
+[37412.862345] sd 6:0:0:0: [sdb] Attached SCSI removable disk
+[37412.999223] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[37413.000860] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[37413.001195] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[37413.001202] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[37413.004310] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[37413.004676] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[37413.004682] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[37413.006106] ata1.00: configured for UDMA/100
+[37413.589565] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[37413.677506] r8169 0000:04:00.2 enp4s0f2: link down
+[37413.677685] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[37413.679382] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[37413.768430] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[37413.858880] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[37414.077992] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[37415.009349] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[37415.882080] wlp3s0f0: authenticate with d4:7b:b0:04:82:e8
+[37415.883883] wlp3s0f0: send auth to d4:7b:b0:04:82:e8 (try 1/3)
+[37415.885669] wlp3s0f0: authenticated
+[37415.886165] wlp3s0f0: associate with d4:7b:b0:04:82:e8 (try 1/3)
+[37415.889948] wlp3s0f0: RX AssocResp from d4:7b:b0:04:82:e8 (capab=0x411 status=0 aid=2)
+[37415.890038] wlp3s0f0: associated
+[37416.996667] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0f0: link becomes ready
+[45225.846751] wlp3s0f0: deauthenticating from d4:7b:b0:04:82:e8 by local choice (Reason: 3=DEAUTH_LEAVING)
+[45225.990966] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[45226.826228] PM: suspend entry (deep)
+[45226.826230] PM: Syncing filesystems ... done.
+[45228.062263] Freezing user space processes ... (elapsed 0.006 seconds) done.
+[45228.068604] OOM killer disabled.
+[45228.068606] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[45228.070300] Suspending console(s) (use no_console_suspend to debug)
+[45228.088705] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+[45228.153238] sd 0:0:0:0: [sda] Stopping disk
+[45228.885942] PM: suspend devices took 0.816 seconds
+[45228.899093] ACPI: EC: interrupt blocked
+[45228.912125] ACPI: Preparing to enter system sleep state S3
+[45228.963934] ACPI: EC: event blocked
+[45228.963936] ACPI: EC: EC stopped
+[45228.963937] PM: Saving platform NVS memory
+[45228.964121] Disabling non-boot CPUs ...
+[45228.972091] smpboot: CPU 1 is now offline
+[45228.988248] smpboot: CPU 2 is now offline
+[45228.999260] smpboot: CPU 3 is now offline
+[45229.003866] ACPI: Low-level resume complete
+[45229.003926] ACPI: EC: EC started
+[45229.003926] PM: Restoring platform NVS memory
+[45229.005845] Enabling non-boot CPUs ...
+[45229.005898] x86: Booting SMP configuration:
+[45229.005900] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[45229.009947]  cache: parent cpu1 should not be sleeping
+[45229.010215] CPU1 is up
+[45229.010251] smpboot: Booting Node 0 Processor 2 APIC 0x1
+[45229.013101]  cache: parent cpu2 should not be sleeping
+[45229.013345] CPU2 is up
+[45229.013377] smpboot: Booting Node 0 Processor 3 APIC 0x3
+[45229.016182]  cache: parent cpu3 should not be sleeping
+[45229.016702] CPU3 is up
+[45229.021463] ACPI: Waking up from system sleep state S3
+[45229.068341] ACPI: EC: interrupt unblocked
+[45229.082280] usb usb3: root hub lost power or was reset
+[45229.082286] usb usb4: root hub lost power or was reset
+[45229.082356] ACPI: EC: event unblocked
+[45229.082369] usb usb1: root hub lost power or was reset
+[45229.083276] usb usb2: root hub lost power or was reset
+[45229.086280] ehci-pci 0000:00:1a.0: cache line size of 64 is not supported
+[45229.087200] ehci-pci 0000:00:1d.0: cache line size of 64 is not supported
+[45229.097654] sd 0:0:0:0: [sda] Starting disk
+[45229.192430] r8169 0000:04:00.2 enp4s0f2: link down
+[45229.397788] ata3: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+[45229.406095] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[45229.406103] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[45229.418011] usb 2-1: reset high-speed USB device number 2 using ehci-pci
+[45229.418022] usb 1-1: reset high-speed USB device number 2 using ehci-pci
+[45229.418175] usb 3-2: reset full-speed USB device number 2 using xhci_hcd
+[45229.421565] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[45229.421573] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[45229.423861] ata3.00: configured for UDMA/100
+[45229.824017] usb 1-1.3: reset high-speed USB device number 3 using ehci-pci
+[45230.211209] usb 3-1: reset high-speed USB device number 9 using xhci_hcd
+[45230.338469] PM: resume devices took 1.256 seconds
+[45230.338531] OOM killer enabled.
+[45230.338532] Restarting tasks ... done.
+[45230.487968] PM: suspend exit
+[45230.519048] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[45230.610235] r8169 0000:04:00.2 enp4s0f2: link down
+[45230.610398] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[45230.612359] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[45230.697846] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[45230.785212] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[45230.810665] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[45231.684925] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[45231.686223] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[45231.686590] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[45231.686593] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[45231.689363] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[45231.689712] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[45231.689718] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[45231.691181] ata1.00: configured for UDMA/100
+[45231.755918] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[45232.658490] wlp3s0f0: authenticate with d4:7b:b0:04:82:e8
+[45232.660815] wlp3s0f0: send auth to d4:7b:b0:04:82:e8 (try 1/3)
+[45232.662199] wlp3s0f0: authenticated
+[45232.662891] wlp3s0f0: associate with d4:7b:b0:04:82:e8 (try 1/3)
+[45232.666571] wlp3s0f0: RX AssocResp from d4:7b:b0:04:82:e8 (capab=0x411 status=0 aid=2)
+[45232.666658] wlp3s0f0: associated
+[45233.451968] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0f0: link becomes ready
+[45361.302536] usb 3-1: USB disconnect, device number 9
+[53157.865431] wlp3s0f0: deauthenticating from d4:7b:b0:04:82:e8 by local choice (Reason: 3=DEAUTH_LEAVING)
+[53158.013372] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[53158.918773] PM: suspend entry (deep)
+[53158.918775] PM: Syncing filesystems ... done.
+[53160.328678] Freezing user space processes ... (elapsed 0.005 seconds) done.
+[53160.333891] OOM killer disabled.
+[53160.333892] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[53160.335483] Suspending console(s) (use no_console_suspend to debug)
+[53160.342148] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+[53160.395400] sd 0:0:0:0: [sda] Stopping disk
+[53161.157576] PM: suspend devices took 0.822 seconds
+[53161.170773] ACPI: EC: interrupt blocked
+[53161.183836] ACPI: Preparing to enter system sleep state S3
+[53161.235597] ACPI: EC: event blocked
+[53161.235598] ACPI: EC: EC stopped
+[53161.235600] PM: Saving platform NVS memory
+[53161.235781] Disabling non-boot CPUs ...
+[53161.244706] smpboot: CPU 1 is now offline
+[53161.257831] smpboot: CPU 2 is now offline
+[53161.272863] smpboot: CPU 3 is now offline
+[53161.277749] ACPI: Low-level resume complete
+[53161.277813] ACPI: EC: EC started
+[53161.277814] PM: Restoring platform NVS memory
+[53161.279694] Enabling non-boot CPUs ...
+[53161.279750] x86: Booting SMP configuration:
+[53161.279752] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[53161.283799]  cache: parent cpu1 should not be sleeping
+[53161.284068] CPU1 is up
+[53161.284103] smpboot: Booting Node 0 Processor 2 APIC 0x1
+[53161.286962]  cache: parent cpu2 should not be sleeping
+[53161.287204] CPU2 is up
+[53161.287236] smpboot: Booting Node 0 Processor 3 APIC 0x3
+[53161.289939]  cache: parent cpu3 should not be sleeping
+[53161.290456] CPU3 is up
+[53161.294919] ACPI: Waking up from system sleep state S3
+[53161.328990] ACPI: EC: interrupt unblocked
+[53161.342501] usb usb3: root hub lost power or was reset
+[53161.342503] ACPI: EC: event unblocked
+[53161.342504] usb usb4: root hub lost power or was reset
+[53161.342782] usb usb1: root hub lost power or was reset
+[53161.346697] ehci-pci 0000:00:1a.0: cache line size of 64 is not supported
+[53161.348661] usb usb2: root hub lost power or was reset
+[53161.352551] ehci-pci 0000:00:1d.0: cache line size of 64 is not supported
+[53161.355586] sd 0:0:0:0: [sda] Starting disk
+[53161.454217] r8169 0000:04:00.2 enp4s0f2: link down
+[53161.679695] usb 1-1: reset high-speed USB device number 2 using ehci-pci
+[53161.679834] usb 3-2: reset full-speed USB device number 2 using xhci_hcd
+[53161.687678] usb 2-1: reset high-speed USB device number 2 using ehci-pci
+[53161.739955] ata3: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+[53161.748510] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[53161.748519] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[53161.764053] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[53161.764061] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[53161.767043] ata3.00: configured for UDMA/100
+[53162.085674] usb 1-1.3: reset high-speed USB device number 3 using ehci-pci
+[53162.196677] PM: resume devices took 0.855 seconds
+[53162.196743] OOM killer enabled.
+[53162.196745] Restarting tasks ... done.
+[53162.345287] PM: suspend exit
+[53162.378997] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[53162.468835] r8169 0000:04:00.2 enp4s0f2: link down
+[53162.468941] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[53162.470513] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[53162.562862] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[53162.586574] usb 3-1: new high-speed USB device number 10 using xhci_hcd
+[53162.652476] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[53162.676260] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[53162.713045] usb 3-1: New USB device found, idVendor=10d6, idProduct=1101
+[53162.713047] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[53162.713049] usb 3-1: Product: USB CARDREADER
+[53162.713050] usb 3-1: Manufacturer: ACTIONS
+[53162.713051] usb 3-1: SerialNumber: 4512482ADF0FEEEE
+[53162.713612] usb-storage 3-1:1.0: USB Mass Storage device detected
+[53162.713891] scsi host6: usb-storage 3-1:1.0
+[53163.622521] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[53163.757894] scsi 6:0:0:0: Direct-Access     ACTIONS  USB DISK FOB 2.0 0    PQ: 0 ANSI: 0 CCS
+[53163.758379] sd 6:0:0:0: Attached scsi generic sg2 type 0
+[53163.758930] sd 6:0:0:0: [sdb] Attached SCSI removable disk
+[53163.926599] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[53163.928163] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[53163.928536] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[53163.928539] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[53163.931797] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[53163.932173] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[53163.932176] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[53163.933690] ata1.00: configured for UDMA/100
+[53164.494798] wlp3s0f0: authenticate with d4:7b:b0:04:82:e8
+[53164.497171] wlp3s0f0: send auth to d4:7b:b0:04:82:e8 (try 1/3)
+[53164.498671] wlp3s0f0: authenticated
+[53164.499556] wlp3s0f0: associate with d4:7b:b0:04:82:e8 (try 1/3)
+[53164.503128] wlp3s0f0: RX AssocResp from d4:7b:b0:04:82:e8 (capab=0x411 status=0 aid=2)
+[53164.503220] wlp3s0f0: associated
+[53164.896477] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0f0: link becomes ready
+[59323.044357] TaskSchedulerFo[10280]: segfault at 39 ip 000055a29a802670 sp 00007fdf41192cd8 error 6 in chrome[55a29a650000+614c000]
+[59381.870803] usb 3-1: USB disconnect, device number 10
+[60230.774268] chrome[12562]: segfault at e0 ip 000055de2593083d sp 00007fff19270c20 error 4 in chrome[55de211c1000+614c000]
+[60232.178495] traps: chrome[12606] general protection ip:55de22af33bc sp:7fff19270c40 error:0 in chrome[55de211c1000+614c000]
+[60237.082912] traps: chrome[12574] general protection ip:55de225a4bdf sp:7fff192703d0 error:0 in chrome[55de211c1000+614c000]
+[60876.619457] chrome[13073]: segfault at d6 ip 000055de25942fd1 sp 00007fff19270550 error 4 in chrome[55de211c1000+614c000]
+[60927.413448] chrome[13129]: segfault at 82007fe ip 000055de2294ef95 sp 00007fff19270cf0 error 4 in chrome[55de211c1000+614c000]
+[61373.795906] TaskSchedulerFo[13538]: segfault at 35a00000110 ip 000055de2282f641 sp 00007f6edfc8d390 error 4 in chrome[55de211c1000+614c000]
+[61373.796239] traps: TaskSchedulerFo[13536] trap invalid opcode ip:55de25761ec2 sp:7f6ee22a3108 error:0
+[61681.122108] wlp3s0f0: deauthenticating from d4:7b:b0:04:82:e8 by local choice (Reason: 3=DEAUTH_LEAVING)
+[61681.268761] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[61682.186737] PM: suspend entry (deep)
+[61682.186739] PM: Syncing filesystems ... done.
+[61683.337215] Freezing user space processes ... (elapsed 0.004 seconds) done.
+[61683.341470] OOM killer disabled.
+[61683.341472] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[61683.343387] Suspending console(s) (use no_console_suspend to debug)
+[61683.351067] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+[61683.413079] sd 0:0:0:0: [sda] Stopping disk
+[61684.152464] PM: suspend devices took 0.809 seconds
+[61684.165751] ACPI: EC: interrupt blocked
+[61684.178837] ACPI: Preparing to enter system sleep state S3
+[61684.230413] ACPI: EC: event blocked
+[61684.230415] ACPI: EC: EC stopped
+[61684.230416] PM: Saving platform NVS memory
+[61684.230598] Disabling non-boot CPUs ...
+[61684.239398] smpboot: CPU 1 is now offline
+[61684.253850] smpboot: CPU 2 is now offline
+[61684.269781] smpboot: CPU 3 is now offline
+[61684.274923] ACPI: Low-level resume complete
+[61684.274981] ACPI: EC: EC started
+[61684.274982] PM: Restoring platform NVS memory
+[61684.276808] Enabling non-boot CPUs ...
+[61684.276866] x86: Booting SMP configuration:
+[61684.276868] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[61684.280924]  cache: parent cpu1 should not be sleeping
+[61684.281190] CPU1 is up
+[61684.281226] smpboot: Booting Node 0 Processor 2 APIC 0x1
+[61684.284125]  cache: parent cpu2 should not be sleeping
+[61684.284380] CPU2 is up
+[61684.284412] smpboot: Booting Node 0 Processor 3 APIC 0x3
+[61684.287194]  cache: parent cpu3 should not be sleeping
+[61684.287721] CPU3 is up
+[61684.292474] ACPI: Waking up from system sleep state S3
+[61684.345219] ACPI: EC: interrupt unblocked
+[61684.359102] usb usb3: root hub lost power or was reset
+[61684.359108] usb usb4: root hub lost power or was reset
+[61684.359119] ACPI: EC: event unblocked
+[61684.359337] usb usb1: root hub lost power or was reset
+[61684.360657] usb usb2: root hub lost power or was reset
+[61684.363234] ehci-pci 0000:00:1a.0: cache line size of 64 is not supported
+[61684.364576] ehci-pci 0000:00:1d.0: cache line size of 64 is not supported
+[61684.369132] sd 0:0:0:0: [sda] Starting disk
+[61684.460875] r8169 0000:04:00.2 enp4s0f2: link down
+[61684.677543] ata3: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+[61684.685919] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[61684.685928] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[61684.689731] usb 3-2: reset full-speed USB device number 2 using xhci_hcd
+[61684.697429] usb 2-1: reset high-speed USB device number 2 using ehci-pci
+[61684.697460] usb 1-1: reset high-speed USB device number 2 using ehci-pci
+[61684.701359] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[61684.701395] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[61684.703697] ata3.00: configured for UDMA/100
+[61685.103469] usb 1-1.3: reset high-speed USB device number 3 using ehci-pci
+[61685.214579] PM: resume devices took 0.856 seconds
+[61685.214644] OOM killer enabled.
+[61685.214645] Restarting tasks ... done.
+[61685.397471] PM: suspend exit
+[61685.427067] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[61685.517669] r8169 0000:04:00.2 enp4s0f2: link down
+[61685.517854] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[61685.520563] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[61685.608320] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[61685.697779] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[61686.957407] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[61686.958990] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[61686.959368] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[61686.959372] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[61686.962714] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[61686.963086] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[61686.963090] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[61686.964591] ata1.00: configured for UDMA/100
+[61686.989029] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[61687.938186] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[61688.033698] wlp3s0f0: authenticate with d4:7b:b0:04:82:e8
+[61688.035588] wlp3s0f0: send auth to d4:7b:b0:04:82:e8 (try 1/3)
+[61688.037041] wlp3s0f0: authenticated
+[61688.040354] wlp3s0f0: associate with d4:7b:b0:04:82:e8 (try 1/3)
+[61688.043966] wlp3s0f0: RX AssocResp from d4:7b:b0:04:82:e8 (capab=0x411 status=0 aid=2)
+[61688.044053] wlp3s0f0: associated
+[61688.620928] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0f0: link becomes ready
+[70453.687003] traps: nautilus[16538] general protection ip:7f0573e6840d sp:7ffc7b7da360 error:0 in libglib-2.0.so.0.5200.3[7f0573e01000+110000]
+[91933.769421] PPP generic driver version 2.4.2
+[91933.840609] PPP BSD Compression module registered
+[91933.903323] PPP Deflate Compression module registered
+[108286.003782] wlp3s0f0: deauthenticating from d4:7b:b0:04:82:e8 by local choice (Reason: 3=DEAUTH_LEAVING)
+[108286.152677] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[108287.118439] PM: suspend entry (deep)
+[108287.118441] PM: Syncing filesystems ... done.
+[108288.338518] Freezing user space processes ... (elapsed 0.002 seconds) done.
+[108288.341110] OOM killer disabled.
+[108288.341111] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[108288.342644] Suspending console(s) (use no_console_suspend to debug)
+[108288.348885] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+[108288.421902] sd 0:0:0:0: [sda] Stopping disk
+[108289.172300] PM: suspend devices took 0.830 seconds
+[108289.185615] ACPI: EC: interrupt blocked
+[108289.198580] ACPI: Preparing to enter system sleep state S3
+[108289.250327] ACPI: EC: event blocked
+[108289.250328] ACPI: EC: EC stopped
+[108289.250330] PM: Saving platform NVS memory
+[108289.250516] Disabling non-boot CPUs ...
+[108289.258474] smpboot: CPU 1 is now offline
+[108289.273774] smpboot: CPU 2 is now offline
+[108289.285583] smpboot: CPU 3 is now offline
+[108289.290233] ACPI: Low-level resume complete
+[108289.290289] ACPI: EC: EC started
+[108289.290290] PM: Restoring platform NVS memory
+[108289.292112] Enabling non-boot CPUs ...
+[108289.292164] x86: Booting SMP configuration:
+[108289.292165] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[108289.296202]  cache: parent cpu1 should not be sleeping
+[108289.296474] CPU1 is up
+[108289.296509] smpboot: Booting Node 0 Processor 2 APIC 0x1
+[108289.299395]  cache: parent cpu2 should not be sleeping
+[108289.299644] CPU2 is up
+[108289.299676] smpboot: Booting Node 0 Processor 3 APIC 0x3
+[108289.302538]  cache: parent cpu3 should not be sleeping
+[108289.303121] CPU3 is up
+[108289.313037] ACPI: Waking up from system sleep state S3
+[108289.347194] ACPI: EC: interrupt unblocked
+[108289.360185] ACPI: EC: event unblocked
+[108289.360216] usb usb3: root hub lost power or was reset
+[108289.360219] usb usb4: root hub lost power or was reset
+[108289.360649] usb usb1: root hub lost power or was reset
+[108289.360676] usb usb2: root hub lost power or was reset
+[108289.364554] ehci-pci 0000:00:1a.0: cache line size of 64 is not supported
+[108289.364587] ehci-pci 0000:00:1d.0: cache line size of 64 is not supported
+[108289.367654] sd 0:0:0:0: [sda] Starting disk
+[108289.452570] r8169 0000:04:00.2 enp4s0f2: link down
+[108289.686276] usb 3-2: reset full-speed USB device number 2 using xhci_hcd
+[108289.702063] usb 1-1: reset high-speed USB device number 2 using ehci-pci
+[108289.702077] usb 2-1: reset high-speed USB device number 2 using ehci-pci
+[108289.738232] ata3: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+[108289.746531] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[108289.746540] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[108289.762159] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[108289.762168] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[108289.764492] ata3.00: configured for UDMA/100
+[108290.108042] usb 1-1.3: reset high-speed USB device number 3 using ehci-pci
+[108290.219148] PM: resume devices took 0.859 seconds
+[108290.219211] OOM killer enabled.
+[108290.219213] Restarting tasks ... done.
+[108290.377085] PM: suspend exit
+[108290.405446] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[108290.507200] r8169 0000:04:00.2 enp4s0f2: link down
+[108290.507417] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[108290.509091] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[108290.600555] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[108290.692013] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[108290.719379] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[108291.674388] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[108291.711306] wlp3s0f0: authenticate with d4:7b:b0:04:82:e8
+[108291.713111] wlp3s0f0: send auth to d4:7b:b0:04:82:e8 (try 1/3)
+[108291.714739] wlp3s0f0: authenticated
+[108291.715929] wlp3s0f0: associate with d4:7b:b0:04:82:e8 (try 1/3)
+[108291.719486] wlp3s0f0: RX AssocResp from d4:7b:b0:04:82:e8 (capab=0x411 status=0 aid=2)
+[108291.719570] wlp3s0f0: associated
+[108291.921937] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[108291.923103] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[108291.923411] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[108291.923413] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[108291.926139] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[108291.926463] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[108291.926480] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[108291.927831] ata1.00: configured for UDMA/100
+[108292.819353] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0f0: link becomes ready
+[108351.864538] usb 3-1: new high-speed USB device number 11 using xhci_hcd
+[108351.991339] usb 3-1: New USB device found, idVendor=10d6, idProduct=1101
+[108351.991345] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[108351.991349] usb 3-1: Product: USB CARDREADER
+[108351.991352] usb 3-1: Manufacturer: ACTIONS
+[108351.991355] usb 3-1: SerialNumber: 4512482ADF0FEEEE
+[108351.992815] usb-storage 3-1:1.0: USB Mass Storage device detected
+[108351.993539] scsi host6: usb-storage 3-1:1.0
+[108353.015390] scsi 6:0:0:0: Direct-Access     ACTIONS  USB DISK FOB 2.0 0    PQ: 0 ANSI: 0 CCS
+[108353.016908] sd 6:0:0:0: Attached scsi generic sg2 type 0
+[108353.017686] sd 6:0:0:0: [sdb] Attached SCSI removable disk
+[108419.667342] usb 3-1: USB disconnect, device number 11
+[118900.359325] usb 3-1: new high-speed USB device number 12 using xhci_hcd
+[118900.486039] usb 3-1: New USB device found, idVendor=10d6, idProduct=1101
+[118900.486047] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[118900.486052] usb 3-1: Product: USB CARDREADER
+[118900.486056] usb 3-1: Manufacturer: ACTIONS
+[118900.486060] usb 3-1: SerialNumber: 4512482ADF0FEEEE
+[118900.487699] usb-storage 3-1:1.0: USB Mass Storage device detected
+[118900.490316] scsi host6: usb-storage 3-1:1.0
+[118901.539287] scsi 6:0:0:0: Direct-Access     ACTIONS  USB DISK FOB 2.0 0    PQ: 0 ANSI: 0 CCS
+[118901.541384] sd 6:0:0:0: [sdb] Attached SCSI removable disk
+[118901.543302] sd 6:0:0:0: Attached scsi generic sg2 type 0
+[119145.142195] usb 3-1: USB disconnect, device number 12
+[130426.947960] traps: chrome[20802] general protection ip:55de2292fdd8 sp:7fff19270610 error:0 in chrome[55de211c1000+614c000]
+[143742.416463] traps: chrome[27813] general protection ip:55de25915ee8 sp:7fff1926d280 error:0 in chrome[55de211c1000+614c000]
+[145378.665430] usb 3-1: new high-speed USB device number 13 using xhci_hcd
+[145378.791882] usb 3-1: New USB device found, idVendor=10d6, idProduct=1101
+[145378.791884] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[145378.791886] usb 3-1: Product: USB CARDREADER
+[145378.791887] usb 3-1: Manufacturer: ACTIONS
+[145378.791888] usb 3-1: SerialNumber: 4512482ADF0FEEEE
+[145378.795082] usb-storage 3-1:1.0: USB Mass Storage device detected
+[145378.795652] scsi host6: usb-storage 3-1:1.0
+[145379.824818] scsi 6:0:0:0: Direct-Access     ACTIONS  USB DISK FOB 2.0 0    PQ: 0 ANSI: 0 CCS
+[145379.825504] sd 6:0:0:0: Attached scsi generic sg2 type 0
+[145379.825886] sd 6:0:0:0: [sdb] Attached SCSI removable disk
+[145773.048874] wlp3s0f0: deauthenticating from d4:7b:b0:04:82:e8 by local choice (Reason: 3=DEAUTH_LEAVING)
+[145773.196679] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[145775.607486] PM: suspend entry (deep)
+[145775.607488] PM: Syncing filesystems ... 
+[145776.193761] pci_bus 0000:02: Allocating resources
+[145776.193786] pcieport 0000:00:1c.0: bridge window [io  0x1000-0x0fff] to [bus 02] add_size 1000
+[145776.193792] pcieport 0000:00:1c.0: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 02] add_size 200000 add_align 100000
+[145776.193797] pcieport 0000:00:1c.0: bridge window [mem 0x00100000-0x000fffff] to [bus 02] add_size 200000 add_align 100000
+[145776.193812] pci_bus 0000:03: Allocating resources
+[145776.193840] pcieport 0000:00:1c.1: bridge window [io  0x1000-0x0fff] to [bus 03] add_size 1000
+[145776.193845] pcieport 0000:00:1c.1: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 03] add_size 200000 add_align 100000
+[145776.193860] pci_bus 0000:04: Allocating resources
+[145776.193908] pcieport 0000:00:1c.0: BAR 14: assigned [mem 0xf2200000-0xf23fffff]
+[145776.193929] pcieport 0000:00:1c.0: BAR 15: assigned [mem 0xf2400000-0xf25fffff 64bit pref]
+[145776.193947] pcieport 0000:00:1c.1: BAR 15: assigned [mem 0xf2600000-0xf27fffff 64bit pref]
+[145776.193954] pcieport 0000:00:1c.0: BAR 13: assigned [io  0x2000-0x2fff]
+[145776.193959] pcieport 0000:00:1c.1: BAR 13: assigned [io  0x3000-0x3fff]
+[145778.962330] done.
+[145778.962731] Freezing user space processes ... (elapsed 0.010 seconds) done.
+[145778.973696] OOM killer disabled.
+[145778.973697] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[145778.974840] Suspending console(s) (use no_console_suspend to debug)
+[145778.985806] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+[145779.031221] sd 0:0:0:0: [sda] Stopping disk
+[145779.507292] nouveau 0000:01:00.0: bus: MMIO write of 8000001f FAULT at 6013d4 [ !ENGINE ]
+[145779.803009] PM: suspend devices took 0.828 seconds
+[145779.814938] ACPI: EC: interrupt blocked
+[145779.827145] ACPI: Preparing to enter system sleep state S3
+[145779.884996] ACPI: EC: event blocked
+[145779.884998] ACPI: EC: EC stopped
+[145779.884999] PM: Saving platform NVS memory
+[145779.885184] Disabling non-boot CPUs ...
+[145779.893732] smpboot: CPU 1 is now offline
+[145779.902455] smpboot: CPU 2 is now offline
+[145779.915416] smpboot: CPU 3 is now offline
+[145779.920062] ACPI: Low-level resume complete
+[145779.920122] ACPI: EC: EC started
+[145779.920122] PM: Restoring platform NVS memory
+[145779.921970] Enabling non-boot CPUs ...
+[145779.922022] x86: Booting SMP configuration:
+[145779.922024] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[145779.926066]  cache: parent cpu1 should not be sleeping
+[145779.926342] CPU1 is up
+[145779.926378] smpboot: Booting Node 0 Processor 2 APIC 0x1
+[145779.929266]  cache: parent cpu2 should not be sleeping
+[145779.929513] CPU2 is up
+[145779.929544] smpboot: Booting Node 0 Processor 3 APIC 0x3
+[145779.932307]  cache: parent cpu3 should not be sleeping
+[145779.932861] CPU3 is up
+[145779.942626] ACPI: Waking up from system sleep state S3
+[145780.371821] ACPI: EC: interrupt unblocked
+[145780.385731] usb usb3: root hub lost power or was reset
+[145780.385736] usb usb4: root hub lost power or was reset
+[145780.385795] ACPI: EC: event unblocked
+[145780.386962] usb usb1: root hub lost power or was reset
+[145780.390860] ehci-pci 0000:00:1a.0: cache line size of 64 is not supported
+[145780.402877] sd 0:0:0:0: [sda] Starting disk
+[145780.467505] usb usb2: root hub lost power or was reset
+[145780.471390] ehci-pci 0000:00:1d.0: cache line size of 64 is not supported
+[145780.496467] r8169 0000:04:00.2 enp4s0f2: link down
+[145780.729993] usb 1-1: reset high-speed USB device number 2 using ehci-pci
+[145780.730124] usb 3-2: reset full-speed USB device number 2 using xhci_hcd
+[145780.774247] ata3: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+[145780.782515] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[145780.782524] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[145780.797925] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[145780.797934] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[145780.800166] ata3.00: configured for UDMA/100
+[145780.801968] usb 2-1: reset high-speed USB device number 2 using ehci-pci
+[145781.135944] usb 1-1.3: reset high-speed USB device number 3 using ehci-pci
+[145782.549938] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[145782.551684] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[145782.552105] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[145782.552114] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[145782.555774] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[145782.556194] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[145782.556202] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[145782.557910] ata1.00: configured for UDMA/100
+[145782.817600] PM: resume devices took 2.432 seconds
+[145782.817658] OOM killer enabled.
+[145782.817659] Restarting tasks ... 
+[145782.834017] usb 3-1: USB disconnect, device number 13
+[145782.834714] done.
+[145782.994462] PM: suspend exit
+[145783.014244] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[145783.128119] r8169 0000:04:00.2 enp4s0f2: link down
+[145783.128298] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[145783.129586] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[145783.211770] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[145783.304700] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[145783.511014] PM: suspend entry (deep)
+[145783.511016] PM: Syncing filesystems ... done.
+[145786.785113] Freezing user space processes ... (elapsed 0.024 seconds) done.
+[145786.809767] OOM killer disabled.
+[145786.809768] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[145786.811468] Suspending console(s) (use no_console_suspend to debug)
+[145786.818207] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+[145786.867180] sd 0:0:0:0: [sda] Stopping disk
+[145787.319413] PM: suspend devices took 0.508 seconds
+[145787.332756] ACPI: EC: interrupt blocked
+[145787.345896] ACPI: Preparing to enter system sleep state S3
+[145787.398325] ACPI: EC: event blocked
+[145787.398327] ACPI: EC: EC stopped
+[145787.398328] PM: Saving platform NVS memory
+[145787.398491] Disabling non-boot CPUs ...
+[145787.407659] smpboot: CPU 1 is now offline
+[145787.419774] smpboot: CPU 2 is now offline
+[145787.431649] smpboot: CPU 3 is now offline
+[145787.435208] ACPI: Low-level resume complete
+[145787.435266] ACPI: EC: EC started
+[145787.435267] PM: Restoring platform NVS memory
+[145787.437045] Enabling non-boot CPUs ...
+[145787.437109] x86: Booting SMP configuration:
+[145787.437110] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[145787.441192]  cache: parent cpu1 should not be sleeping
+[145787.441462] CPU1 is up
+[145787.441499] smpboot: Booting Node 0 Processor 2 APIC 0x1
+[145787.444425]  cache: parent cpu2 should not be sleeping
+[145787.444669] CPU2 is up
+[145787.444701] smpboot: Booting Node 0 Processor 3 APIC 0x3
+[145787.447496]  cache: parent cpu3 should not be sleeping
+[145787.448028] CPU3 is up
+[145787.457796] ACPI: Waking up from system sleep state S3
+[145787.511487] ACPI: EC: interrupt unblocked
+[145787.525439] usb usb3: root hub lost power or was reset
+[145787.525445] usb usb4: root hub lost power or was reset
+[145787.525501] ACPI: EC: event unblocked
+[145787.526890] usb usb1: root hub lost power or was reset
+[145787.526908] usb usb2: root hub lost power or was reset
+[145787.530788] ehci-pci 0000:00:1a.0: cache line size of 64 is not supported
+[145787.530821] ehci-pci 0000:00:1d.0: cache line size of 64 is not supported
+[145787.537442] sd 0:0:0:0: [sda] Starting disk
+[145787.634713] r8169 0000:04:00.2 enp4s0f2: link down
+[145787.852371] usb 3-2: reset full-speed USB device number 2 using xhci_hcd
+[145787.868238] usb 2-1: reset high-speed USB device number 2 using ehci-pci
+[145787.868251] usb 1-1: reset high-speed USB device number 2 using ehci-pci
+[145787.920838] ata3: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+[145787.929410] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[145787.929419] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[145787.945757] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[145787.945766] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[145787.948243] ata3.00: configured for UDMA/100
+[145788.274213] usb 1-1.3: reset high-speed USB device number 3 using ehci-pci
+[145788.384680] PM: resume devices took 0.859 seconds
+[145788.384713] OOM killer enabled.
+[145788.384714] Restarting tasks ... done.
+[145788.535618] PM: suspend exit
+[145788.567533] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[145788.657437] r8169 0000:04:00.2 enp4s0f2: link down
+[145788.657603] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[145788.659818] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[145788.749501] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[145788.770064] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[145789.675499] wlp3s0f0: authenticate with d4:7b:b0:04:82:e8
+[145789.677291] wlp3s0f0: send auth to d4:7b:b0:04:82:e8 (try 1/3)
+[145789.678682] wlp3s0f0: authenticated
+[145789.680091] wlp3s0f0: associate with d4:7b:b0:04:82:e8 (try 1/3)
+[145789.683686] wlp3s0f0: RX AssocResp from d4:7b:b0:04:82:e8 (capab=0x411 status=0 aid=2)
+[145789.683796] wlp3s0f0: associated
+[145790.056240] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[145790.057901] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[145790.058356] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[145790.058365] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[145790.061819] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[145790.062183] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[145790.062191] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[145790.063658] ata1.00: configured for UDMA/100
+[145790.609386] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0f0: link becomes ready
+[145808.794593] wlp3s0f0: deauthenticating from d4:7b:b0:04:82:e8 by local choice (Reason: 3=DEAUTH_LEAVING)
+[145808.946883] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[145809.896133] PM: suspend entry (deep)
+[145809.896135] PM: Syncing filesystems ... 
+[145811.671776] pci_bus 0000:02: Allocating resources
+[145811.671794] pci_bus 0000:03: Allocating resources
+[145811.671817] pci_bus 0000:04: Allocating resources
+[145812.101102] done.
+[145812.101452] Freezing user space processes ... (elapsed 0.002 seconds) done.
+[145812.104574] OOM killer disabled.
+[145812.104575] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[145812.106300] Suspending console(s) (use no_console_suspend to debug)
+[145812.112979] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+[145812.212439] sd 0:0:0:0: [sda] Stopping disk
+[145812.966427] PM: suspend devices took 0.788 seconds
+[145812.979481] ACPI: EC: interrupt blocked
+[145812.992834] ACPI: Preparing to enter system sleep state S3
+[145813.055931] ACPI: EC: event blocked
+[145813.055933] ACPI: EC: EC stopped
+[145813.055934] PM: Saving platform NVS memory
+[145813.056097] Disabling non-boot CPUs ...
+[145813.064983] smpboot: CPU 1 is now offline
+[145813.081407] smpboot: CPU 2 is now offline
+[145813.095438] smpboot: CPU 3 is now offline
+[145813.099949] ACPI: Low-level resume complete
+[145813.100007] ACPI: EC: EC started
+[145813.100008] PM: Restoring platform NVS memory
+[145813.101832] Enabling non-boot CPUs ...
+[145813.101888] x86: Booting SMP configuration:
+[145813.101890] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[145813.105984]  cache: parent cpu1 should not be sleeping
+[145813.106259] CPU1 is up
+[145813.106294] smpboot: Booting Node 0 Processor 2 APIC 0x1
+[145813.109174]  cache: parent cpu2 should not be sleeping
+[145813.109419] CPU2 is up
+[145813.109451] smpboot: Booting Node 0 Processor 3 APIC 0x3
+[145813.112199]  cache: parent cpu3 should not be sleeping
+[145813.112766] CPU3 is up
+[145813.117227] ACPI: Waking up from system sleep state S3
+[145813.596343] ACPI: EC: interrupt unblocked
+[145813.610974] usb usb3: root hub lost power or was reset
+[145813.610978] usb usb4: root hub lost power or was reset
+[145813.611062] ACPI: EC: event unblocked
+[145813.611768] usb usb1: root hub lost power or was reset
+[145813.615662] ehci-pci 0000:00:1a.0: cache line size of 64 is not supported
+[145813.616268] sd 0:0:0:0: [sda] Starting disk
+[145813.695326] usb usb2: root hub lost power or was reset
+[145813.699213] ehci-pci 0000:00:1d.0: cache line size of 64 is not supported
+[145813.718214] r8169 0000:04:00.2 enp4s0f2: link down
+[145813.964674] usb 3-2: reset full-speed USB device number 2 using xhci_hcd
+[145813.981961] usb 1-1: reset high-speed USB device number 2 using ehci-pci
+[145814.038000] ata3: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+[145814.046216] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[145814.046224] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[145814.060482] usb 2-1: reset high-speed USB device number 2 using ehci-pci
+[145814.061764] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[145814.061770] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[145814.064188] ata3.00: configured for UDMA/100
+[145814.424856] usb 1-1.3: reset high-speed USB device number 3 using ehci-pci
+[145814.543413] PM: resume devices took 0.855 seconds
+[145814.543598] OOM killer enabled.
+[145814.543609] Restarting tasks ... done.
+[145814.729897] PM: suspend exit
+[145814.755890] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[145814.821716] usb 3-1: new high-speed USB device number 14 using xhci_hcd
+[145814.856856] r8169 0000:04:00.2 enp4s0f2: link down
+[145814.857012] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[145814.858426] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[145814.947588] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[145814.960801] usb 3-1: New USB device found, idVendor=10d6, idProduct=1101
+[145814.960804] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[145814.960805] usb 3-1: Product: USB CARDREADER
+[145814.960806] usb 3-1: Manufacturer: ACTIONS
+[145814.960807] usb 3-1: SerialNumber: 4512482ADF0FEEEE
+[145814.961301] usb-storage 3-1:1.0: USB Mass Storage device detected
+[145814.961930] scsi host6: usb-storage 3-1:1.0
+[145815.045085] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[145815.069533] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[145815.731692] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[145815.732883] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[145815.733211] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[145815.733213] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[145815.735810] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[145815.736123] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[145815.736125] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[145815.737442] ata1.00: configured for UDMA/100
+[145816.057702] scsi 6:0:0:0: Direct-Access     ACTIONS  USB DISK FOB 2.0 0    PQ: 0 ANSI: 0 CCS
+[145816.058711] sd 6:0:0:0: Attached scsi generic sg2 type 0
+[145816.059343] sd 6:0:0:0: [sdb] Attached SCSI removable disk
+[145816.083836] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[145817.029334] wlp3s0f0: authenticate with d4:7b:b0:04:82:e8
+[145817.031899] wlp3s0f0: send auth to d4:7b:b0:04:82:e8 (try 1/3)
+[145817.045973] wlp3s0f0: authenticated
+[145817.046219] wlp3s0f0: associate with d4:7b:b0:04:82:e8 (try 1/3)
+[145817.050126] wlp3s0f0: RX AssocResp from d4:7b:b0:04:82:e8 (capab=0x411 status=0 aid=2)
+[145817.050217] wlp3s0f0: associated
+[145817.296488] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0f0: link becomes ready
+[145843.114052] mei_me 0000:00:16.0: timer: init clients timeout hbm_state = 1.
+[145843.114074] mei_me 0000:00:16.0: unexpected reset: dev_state = INIT_CLIENTS fw status = 1E000245 60000106 
+[147337.162232] usb 3-1: USB disconnect, device number 14
+[153392.091489] traps: ScriptStreamer [32329] general protection ip:55de225a38de sp:7f6ee10a1108 error:0 in chrome[55de211c1000+614c000]
+[156754.881215] wlp3s0f0: deauthenticating from d4:7b:b0:04:82:e8 by local choice (Reason: 3=DEAUTH_LEAVING)
+[156755.031334] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[156755.900131] PM: suspend entry (deep)
+[156755.900133] PM: Syncing filesystems ... done.
+[156756.886882] Freezing user space processes ... (elapsed 0.003 seconds) done.
+[156756.889917] OOM killer disabled.
+[156756.889919] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[156756.891642] Suspending console(s) (use no_console_suspend to debug)
+[156756.898451] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+[156756.942501] sd 0:0:0:0: [sda] Stopping disk
+[156757.715953] PM: suspend devices took 0.824 seconds
+[156757.729051] ACPI: EC: interrupt blocked
+[156757.742192] ACPI: Preparing to enter system sleep state S3
+[156757.793929] ACPI: EC: event blocked
+[156757.793931] ACPI: EC: EC stopped
+[156757.793932] PM: Saving platform NVS memory
+[156757.794114] Disabling non-boot CPUs ...
+[156757.802859] smpboot: CPU 1 is now offline
+[156757.813950] smpboot: CPU 2 is now offline
+[156757.821220] smpboot: CPU 3 is now offline
+[156757.825293] ACPI: Low-level resume complete
+[156757.825352] ACPI: EC: EC started
+[156757.825353] PM: Restoring platform NVS memory
+[156757.827147] Enabling non-boot CPUs ...
+[156757.827202] x86: Booting SMP configuration:
+[156757.827203] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[156757.831226]  cache: parent cpu1 should not be sleeping
+[156757.831515] CPU1 is up
+[156757.831552] smpboot: Booting Node 0 Processor 2 APIC 0x1
+[156757.834400]  cache: parent cpu2 should not be sleeping
+[156757.834656] CPU2 is up
+[156757.834688] smpboot: Booting Node 0 Processor 3 APIC 0x3
+[156757.837521]  cache: parent cpu3 should not be sleeping
+[156757.838076] CPU3 is up
+[156757.847846] ACPI: Waking up from system sleep state S3
+[156757.899924] ACPI: EC: interrupt unblocked
+[156757.913994] usb usb3: root hub lost power or was reset
+[156757.913999] usb usb4: root hub lost power or was reset
+[156757.914014] ACPI: EC: event unblocked
+[156757.914103] usb usb1: root hub lost power or was reset
+[156757.915054] usb usb2: root hub lost power or was reset
+[156757.917995] ehci-pci 0000:00:1a.0: cache line size of 64 is not supported
+[156757.918974] ehci-pci 0000:00:1d.0: cache line size of 64 is not supported
+[156757.932182] sd 0:0:0:0: [sda] Starting disk
+[156758.029023] r8169 0000:04:00.2 enp4s0f2: link down
+[156758.226414] ata3: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+[156758.234898] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[156758.234906] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[156758.246810] usb 3-2: reset full-speed USB device number 2 using xhci_hcd
+[156758.250399] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[156758.250408] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[156758.252795] ata3.00: configured for UDMA/100
+[156758.254645] usb 1-1: reset high-speed USB device number 2 using ehci-pci
+[156758.254650] usb 2-1: reset high-speed USB device number 2 using ehci-pci
+[156758.660590] usb 1-1.3: reset high-speed USB device number 3 using ehci-pci
+[156758.771026] PM: resume devices took 0.857 seconds
+[156758.771092] OOM killer enabled.
+[156758.771093] Restarting tasks ... done.
+[156758.924091] PM: suspend exit
+[156758.956974] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[156759.052814] r8169 0000:04:00.2 enp4s0f2: link down
+[156759.053007] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[156759.055497] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[156759.132659] usb 3-1: new high-speed USB device number 15 using xhci_hcd
+[156759.146873] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[156759.244626] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[156759.258899] usb 3-1: New USB device found, idVendor=10d6, idProduct=1101
+[156759.258902] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[156759.258904] usb 3-1: Product: USB CARDREADER
+[156759.258906] usb 3-1: Manufacturer: ACTIONS
+[156759.258908] usb 3-1: SerialNumber: 4512482ADF0FEEEE
+[156759.259418] usb-storage 3-1:1.0: USB Mass Storage device detected
+[156759.262067] scsi host6: usb-storage 3-1:1.0
+[156759.272368] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[156760.221943] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[156760.276780] scsi 6:0:0:0: Direct-Access     ACTIONS  USB DISK FOB 2.0 0    PQ: 0 ANSI: 0 CCS
+[156760.277384] sd 6:0:0:0: Attached scsi generic sg2 type 0
+[156760.277812] sd 6:0:0:0: [sdb] Attached SCSI removable disk
+[156760.461537] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[156760.463142] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[156760.463469] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[156760.463475] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[156760.466765] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[156760.467094] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[156760.467101] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[156760.468633] ata1.00: configured for UDMA/100
+[156761.107507] wlp3s0f0: authenticate with d4:7b:b0:04:82:e8
+[156761.109365] wlp3s0f0: send auth to d4:7b:b0:04:82:e8 (try 1/3)
+[156761.111184] wlp3s0f0: authenticated
+[156761.111482] wlp3s0f0: associate with d4:7b:b0:04:82:e8 (try 1/3)
+[156761.115347] wlp3s0f0: RX AssocResp from d4:7b:b0:04:82:e8 (capab=0x411 status=0 aid=2)
+[156761.115428] wlp3s0f0: associated
+[156761.476711] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0f0: link becomes ready
+[156786.641230] wlp3s0f0: deauthenticating from d4:7b:b0:04:82:e8 by local choice (Reason: 3=DEAUTH_LEAVING)
+[156786.797926] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[156787.707506] PM: suspend entry (deep)
+[156787.707508] PM: Syncing filesystems ... done.
+[156789.725024] Freezing user space processes ... (elapsed 0.004 seconds) done.
+[156789.729906] OOM killer disabled.
+[156789.729907] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[156789.731922] Suspending console(s) (use no_console_suspend to debug)
+[156789.741800] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+[156789.777876] sd 0:0:0:0: [sda] Stopping disk
+[156790.535158] PM: suspend devices took 0.803 seconds
+[156790.548551] ACPI: EC: interrupt blocked
+[156790.561600] ACPI: Preparing to enter system sleep state S3
+[156790.613231] ACPI: EC: event blocked
+[156790.613233] ACPI: EC: EC stopped
+[156790.613234] PM: Saving platform NVS memory
+[156790.613418] Disabling non-boot CPUs ...
+[156790.622575] smpboot: CPU 1 is now offline
+[156790.633623] smpboot: CPU 2 is now offline
+[156790.645553] smpboot: CPU 3 is now offline
+[156790.649710] ACPI: Low-level resume complete
+[156790.649770] ACPI: EC: EC started
+[156790.649771] PM: Restoring platform NVS memory
+[156790.651594] Enabling non-boot CPUs ...
+[156790.651647] x86: Booting SMP configuration:
+[156790.651648] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[156790.655710]  cache: parent cpu1 should not be sleeping
+[156790.655994] CPU1 is up
+[156790.656032] smpboot: Booting Node 0 Processor 2 APIC 0x1
+[156790.658894]  cache: parent cpu2 should not be sleeping
+[156790.659159] CPU2 is up
+[156790.659192] smpboot: Booting Node 0 Processor 3 APIC 0x3
+[156790.662014]  cache: parent cpu3 should not be sleeping
+[156790.662576] CPU3 is up
+[156790.667398] ACPI: Waking up from system sleep state S3
+[156791.120397] ACPI: EC: interrupt unblocked
+[156791.134307] usb usb3: root hub lost power or was reset
+[156791.134309] ACPI: EC: event unblocked
+[156791.134313] usb usb4: root hub lost power or was reset
+[156791.135027] usb usb1: root hub lost power or was reset
+[156791.138971] ehci-pci 0000:00:1a.0: cache line size of 64 is not supported
+[156791.145193] sd 0:0:0:0: [sda] Starting disk
+[156791.218167] usb usb2: root hub lost power or was reset
+[156791.222053] ehci-pci 0000:00:1d.0: cache line size of 64 is not supported
+[156791.242521] r8169 0000:04:00.2 enp4s0f2: link down
+[156791.476082] usb 1-1: reset high-speed USB device number 2 using ehci-pci
+[156791.528641] ata3: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+[156791.536998] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[156791.537007] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[156791.552634] ata3.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[156791.552642] ata3.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[156791.555052] ata3.00: configured for UDMA/100
+[156791.556006] usb 2-1: reset high-speed USB device number 2 using ehci-pci
+[156791.882046] usb 1-1.3: reset high-speed USB device number 3 using ehci-pci
+[156793.296032] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[156793.297799] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[156793.298221] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[156793.298230] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[156793.301858] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[156793.302316] ata1.00: ACPI cmd ef/10:06:00:00:00:a0 (SET FEATURES) succeeded
+[156793.302324] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[156793.303872] ata1.00: configured for UDMA/100
+[156793.460081] PM: resume devices took 2.326 seconds
+[156793.460139] OOM killer enabled.
+[156793.460141] Restarting tasks ... 
+[156793.460367] usb 3-1: USB disconnect, device number 15
+[156793.479925] done.
+[156793.483297] usb 3-2: USB disconnect, device number 2
+[156793.623682] PM: suspend exit
+[156793.658624] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[156793.751391] r8169 0000:04:00.2 enp4s0f2: link down
+[156793.751483] IPv6: ADDRCONF(NETDEV_UP): enp4s0f2: link is not ready
+[156793.752925] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[156793.840393] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[156793.932356] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[156793.957442] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[156794.899474] IPv6: ADDRCONF(NETDEV_UP): wlp3s0f0: link is not ready
+[156795.801178] wlp3s0f0: authenticate with d4:68:4d:1d:49:d8
+[156795.803062] wlp3s0f0: send auth to d4:68:4d:1d:49:d8 (try 1/3)
+[156795.806514] wlp3s0f0: authenticated
+[156795.806883] wlp3s0f0: associate with d4:68:4d:1d:49:d8 (try 1/3)
+[156795.811026] wlp3s0f0: RX AssocResp from d4:68:4d:1d:49:d8 (capab=0x431 status=0 aid=13)
+[156795.811114] wlp3s0f0: associated
+[156795.827732] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0f0: link becomes ready
+[156821.873817] mei_me 0000:00:16.0: timer: init clients timeout hbm_state = 1.
+[156821.873840] mei_me 0000:00:16.0: unexpected reset: dev_state = INIT_CLIENTS fw status = 1E000245 60000106 
+[157229.896760] TaskSchedulerFo[5710]: segfault at 400000110 ip 000055de22823c59 sp 00007f6ee1b22420 error 4 in chrome[55de211c1000+614c000]
+[157242.160817] traps: chrome[5820] general protection ip:3437e07dbcfc sp:7fff192710a0 error:0
+[157262.919350] traps: TaskSchedulerFo[5874] general protection ip:55de2257cac0 sp:7f6edfc4d258 error:0 in chrome[55de211c1000+614c000]
+[157275.381993] chrome[5915]: segfault at 39 ip 000055de21373670 sp 00007fff1926e5c8 error 6 in chrome[55de211c1000+614c000]
