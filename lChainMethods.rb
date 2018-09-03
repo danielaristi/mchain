@@ -26,11 +26,11 @@ def listTransactionsStreamKey(server, dato)
 end
 
 
-def listTransactionsStreamKey(server, tx)
+def getDataFromTxidVout(server, tx)
         method=methodGetDataTxidVout()
 
-	method=method.gsub '?1', tx.GetId
-	method=method.gsub '?2', tx.GetVout
+	method=method.gsub '?1', tx.getTxid
+	method=method.gsub '?2', tx.getVout
         method=method.gsub '?3', '1'
         method=method.gsub '?4', server.getChain
 	execRest(server,method)
@@ -44,4 +44,10 @@ def readFile(pathlog)
 	return file
 end
 
-
+def hex_to_string
+  stripped = self.gsub(/\s+/,'')
+  unless stripped.size % 2 == 0
+    raise "String length must be an even number."
+  end
+  [stripped].pack('H*')
+end

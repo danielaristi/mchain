@@ -19,24 +19,18 @@ request[0]
 errorCode=request[1]
 trans=JSON.parse(request[0])
 
-print trans
-
-exit 0
-
-x['result'][2]['data']['vout']
-
-
-	trans['result'].length.times do |x|
+	#trans['result'].length.times do |x|
+	1.times do |x|
 	
-		if x['result'][x]['data']['vout'] == nil
+		if trans['result'][x]['data']['vout'] == nil
 			datahexa=trans['result'][x]['data']
 		else 
-			txid=Tx.new(x['result'][x]['data']['txid'],x['result'][x]['data']['vout'])
-			datahexa=listTransactionsStreamKey(server,consulta)
-
+			tx=Tx.new(trans['result'][x]['data']['txid'],trans['result'][x]['data']['vout'].to_s)
+			datahexatmp=getDataFromTxidVout(server,tx)
+			datahexa=JSON.parse(datahexatmp[0])
+			datahexa=datahexa['result']
 		end	
-
-			datahexa=cfdsa
+		File.write('/tmp/dar.log', datahexa.gsub(/../) { |pair| pair.hex.chr })
 	end
 
 

@@ -59,10 +59,10 @@ class Dato
 end
 
 class Tx
-	def initialize(txid,vout,id)
+	def initialize(txid,vout)
 	@txid=txid
 	@vout=vout
-	@id=id
+	end
 
 	def getTxid
 	return @txid
@@ -70,10 +70,6 @@ class Tx
 
 	def getVout
 	return @vout
-	end
-
-	def getId
-	return @id
 	end
 end
 
