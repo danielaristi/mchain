@@ -58,6 +58,23 @@ class Dato
 	end
 end
 
+class Tx
+	def initialize(txid,vout,id)
+	@txid=txid
+	@vout=vout
+	@id=id
 
+	def getTxid
+	return @txid
+	end
+
+	def getVout
+	return @vout
+	end
+
+	def getId
+	return @id
+	end
+end
 
 

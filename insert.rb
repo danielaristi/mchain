@@ -12,7 +12,7 @@ server=Server.new(config['chain'],config['user'],config['pass'],config['serverip
 hex=readFile('dmesg')
 hex=hex.unpack('U' * hex.length).collect { |x| x.to_s(16) }.join
 
-dato=Dato.new("stream1","key3","id1",hex)
+dato=Dato.new("stream1","key30","id1",hex)
 
 #data corresponde a la informacion para la insercion (stream, key, id, data)
 insertDataStreamKey(server,dato)

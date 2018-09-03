@@ -11,3 +11,9 @@ def methodlistStreamKeyTransactions()
 string='{"method":"liststreamkeyitems","params":["?1","?2"],"id":?3,"chain_name":"?4"}'
 return string
 end
+
+def methodGetDataTxidVout()
+#params=txid, vout, id, chainname
+string='{"method":"gettxoutdata","params":["?1",?2],"id":?3,"chain_name":"?4"}'
+return string
+end
