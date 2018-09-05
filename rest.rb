@@ -22,6 +22,9 @@ response = Net::HTTP.start(uri.hostname, uri.port, req_options) do |http|
   http.request(request)
 end
 
+#p response.body 
+#p response.code
+
 return response.body,response.code
 
 

@@ -10,7 +10,7 @@ config = YAML.load(File.read('logchain.conf'))
 server=Server.new(config['chain'],config['user'],config['pass'],config['serverip'],config['port'])
 
 
-consulta=Dato.new("stream1","key30","1",'multichain1_agosto2018')
+consulta=Dato.new("stream1","key34","1",'multichain1_agosto2018')
 
 #data corresponde a la informacion para la insercion (stream, key, id, data)
 request=listTransactionsStreamKey(server,consulta)
@@ -30,7 +30,8 @@ trans=JSON.parse(request[0])
 			datahexa=JSON.parse(datahexatmp[0])
 			datahexa=datahexa['result']
 		end	
-		File.write('/tmp/dar.log', datahexa.gsub(/../) { |pair| pair.hex.chr })
+#		p datahexa.gsub(/../) { |pair| pair.hex.chr }
+		File.write('/tmp/dar.log',  datahexa.gsub(/../) { |pair| pair.hex.chr } )
 	end
 
 
