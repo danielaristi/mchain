@@ -8,7 +8,9 @@ end
 
 def methodlistStreamKeyTransactions()
 #params=stream,key,id,chainname
-string='{"method":"liststreamkeyitems","params":["?1","?2"],"id":?3,"chain_name":"?4"}'
+#string='{"method":"liststreamkeyitems","params":["?1","?2"],"id":?3,"chain_name":"?4"}'
+string='{"method":"liststreamkeyitems","params":["?1","?2",false,1000000],"id":?3,"chain_name":"?4"}'
+#cambio en stream aumenta el limite de items que va listar
 return string
 end
 

@@ -42,6 +42,8 @@ File.open(file) do |log|
 	log.interval # 10
 	log.backward(3)
 	log.tail do |line|
+		print Time.new-time1
+		p tumbral
 		if (Time.new-time1)>=tumbral || logData.length > 500000
 		logData=logData.unpack('H*').to_s.gsub("\"","").gsub("[","").gsub("]","")
 		dato=Dato.new("stream1",key,"id1",logData)
