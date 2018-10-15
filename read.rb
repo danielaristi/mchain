@@ -9,8 +9,7 @@ load 'lChainMethods.rb'
 config = YAML.load(File.read('logchain.conf'))
 server=Server.new(config['chain'],config['user'],config['pass'],config['serverip'],config['port'])
 
-
-consulta=Dato.new("stream1","1021","1",'multichain1_agosto2018')
+consulta=Dato.new("stream1","0418","1",'multichain1_agosto2018')
 
 #data corresponde a la informacion para la inserción (stream, key, id, data)
 request=listTransactionsStreamKey(server,consulta)

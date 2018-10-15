@@ -1,0 +1,60 @@
+#Se creara un stream exclusivo ss_chain
+{
+  "hostnameFQDN": "servidor1.0rnitorrinco.cl",
+  "servicios": {
+    "postgres": {
+      "name": "postgres",
+      "path": "/var/lib/pgsql/data/pg_log",
+      "defaultpath": "/var/log",
+      "status": true,
+      "warningsize": "100k"
+    },
+    "jboss": {
+      "nombre": "jboss",
+      "path": "/opt/jboss/server/log",
+      "defaultpath": "/var/log",
+      "status": false,
+      "warningsize": "100k"
+    }
+  },
+  "pool": "1",
+  "Serverstatus": true
+}
+
+
+
+#Se creara un stream exclusivo de cadenas chain_stream 
+#Seran almacenadas dentro de la key pool1_name
+{
+  "name": "201801",
+  "port": "8796",
+  "status": true,
+  "pool": "1"
+}
+
+
+
+
+
+name=201801
+port=8796
+status b= true
+pool=1
+
+
+hostnameFQDN=servidor1.0rnitorrinco.cl
+servicios
+  postgres
+    name = postgres
+    path = /var/lib/pgsql/data/pg_log
+    defaultpath= /var/log
+    status b = true
+    warningsize = 100k
+  jboss
+    nombre = jboss
+    path = /opt/jboss/server/log
+    defaultpath= /var/log
+    status b= false
+    warningsize = 100k
+pool=1
+Serverstatus b= true
