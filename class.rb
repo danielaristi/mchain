@@ -74,3 +74,56 @@ class Tx
 end
 
 
+class AdmChain
+	def initialize(chain,serverip,port,rpcport,user,pass,serverstream,chainstream,logpath)
+	@chain=chain
+	@serverip=serverip
+	@port=port
+	@rpcport=rpcport
+	@user=user
+	@pass=pass
+	@serverstream=serverstream
+	@chainstream=chainstream
+	@logpath=logpath
+	end
+
+	def getChain
+		return @chain
+	end
+
+	def getServerip	
+		return @serverip
+	end
+
+	def getPort
+		return @port
+	end
+
+	def getRpcport
+		return @rpcport
+	end
+
+	def getUser
+		return @user
+	end
+
+	def getPass
+		return @pass
+	end
+
+	def getServerstream
+		return @serverstream
+	end
+
+	def getChainstream
+		return @chainstream
+	end
+
+	def getLogpath
+		return @logpath
+	end
+
+end
+
+
+
