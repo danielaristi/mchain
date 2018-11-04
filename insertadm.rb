@@ -2,6 +2,7 @@
 
 require 'yaml'
 require 'file-tail'
+require 'socket'         #para traer el hostname
 load 'class.rb'
 load 'mChainMethods.rb'
 load 'lChainMethods.rb'
@@ -17,15 +18,14 @@ def insert_config()
 p hex.unpack('H*')
 hex=hex.unpack('H*').to_s.gsub("\"","").gsub("[","").gsub("]","")
 
-dato=Dato.new("stream1","key34","id1",hex)
-
+#dato=Dato.new("stream1","key34","id1",hex)
 #data corresponde a la informacion para la insercion (stream, key, id, data)
-insertDataStreamKey(server,dato)
+#insertDataStreamKey(server,dato)
 
 end
 
 
-json='{
+hash='{
   "hostnameFQDN": "multichain1",
   "servicios": {
     "postgres": {
@@ -48,23 +48,6 @@ json='{
 }'
 
 
-
-
-
-
-
-
-
-
-
-		logData=logData.unpack('H*').to_s.gsub("\"","").gsub("[","").gsub("]","")
-		dato=Dato.new("stream1",key,"id1",logData)
-		insertDataStreamKey(server,dato)
-		key=Time.now.strftime('%d%H').to_s
-		time1=Time.now
-		p key
-		logData=''
-		logData+=line
-
-
-
+		hash=hash.unpack('H*').to_s.gsub("\"","").gsub("[","").gsub("]","")
+		dato=Dato.new(admchain.getServerstream,Socket.gethostname,"id1",hash)
+		insertDataStreamAdmKey(admchain,dato)

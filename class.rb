@@ -125,5 +125,3 @@ class AdmChain
 
 end
 
-
-

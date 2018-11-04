@@ -15,6 +15,19 @@ def insertDataStreamKey(server, dato)
 	execRest(server,method)
 end
 
+def insertDataStreamAdmKey(config, dato)
+        method=methodPublishDataStreamKey()
+
+        method=method.gsub '?1', dato.getStream
+        method=method.gsub '?2', dato.getKey
+        method=method.gsub '?3', dato.getData
+        method=method.gsub '?4', '1'
+        method=method.gsub '?5', config.getChain
+	execRestAdm(config,method)
+
+end
+
+
 def listTransactionsStreamKey(server, dato)
         method=methodlistStreamKeyTransactions()
 
@@ -25,6 +38,15 @@ def listTransactionsStreamKey(server, dato)
 	execRest(server,method)
 end
 
+def getConfigFromAdmchain(config, dato)
+        method=methodGetConfigFromAdmchain()
+
+        method=method.gsub '?1', dato.getStream
+        method=method.gsub '?2', dato.getKey
+        method=method.gsub '?3', '1'
+        method=method.gsub '?4', config.getChain
+	execRestAdm(config,method)
+end
 
 def getDataFromTxidVout(server, tx)
         method=methodGetDataTxidVout()
