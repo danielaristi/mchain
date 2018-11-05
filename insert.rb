@@ -27,6 +27,9 @@ insertDataStreamKey(server,dato)
 end
 
 
+def 
+
+
 tumbral=60           #Tiempo en segundos para cambio de key en blockchain
 refresh=1
 logall=''

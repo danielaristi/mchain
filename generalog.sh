@@ -2,9 +2,9 @@
 
 x=0
 while true;do
-	echo "evento $x $(date) service 1" >> /tmp/service1
-	echo "evento $x $(date) service 2" >> /tmp/service2
-	echo "evento $x $(date) service 3" >> /tmp/service3
+	echo -e "evento $x\tserver: $(hostname)\ttime: $(date)\tservice: 1" >> /tmp/service1
+	echo -e "evento $x\tserver: $(hostname)\ttime: $(date)\tservice: 2" >> /tmp/service2
+	echo -e "evento $x\tserver: $(hostname)\ttime: $(date)\tservice: 3" >> /tmp/service3
 x=$[$x+1]
 sleep 2
 done
