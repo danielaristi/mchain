@@ -6,7 +6,15 @@ require 'socket'
 load 'class.rb'
 load 'mChainMethods.rb'
 load 'lChainMethods.rb'
+load 'insert.rb'
 
+
+#configuracion de la cadena de datos (debe estar posteriormente almacenada en el stream de admin en la parte de chains)
+config = YAML.load(File.read('logchain.conf'))
+server=Server.new(config['chain'],config['user'],config['pass'],config['serverip'],config['port'])
+
+
+# configuracion de la cadena de administracion
 config = YAML.load(File.read('logchainadm.conf'))
 admchain=AdmChain.new(config['chain'],config['serverip'],config['port'],config['rpcport'],config['user'],config['pass'],config['serverstream'],config['chainstream'],config['logpath'])
 
@@ -28,10 +36,28 @@ trans=JSON.parse(request[0])
 			datahexa=datahexatmp['result']
 		end
 
-		hashServer=JSON.parse(datahexa.gsub(/../) { |pair| pair.hex.chr })
+		hashServer=eval(datahexa.gsub(/../) { |pair| pair.hex.chr })
+
+
+p hashServer['servicios'].length
+
+
+
+
+
+
+
+xit 0
+
 
 		print hashServer
-		p hashServer.class
+
+
+
+exit 0
+
+
+		insertData(hashServer,server)
 
 
 	#File.write('/tmp/dar.log',  datahexa.gsub(/../) { |pair| pair.hex.chr } )

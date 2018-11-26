@@ -6,9 +6,9 @@ load 'class.rb'
 load 'mChainMethods.rb'
 load 'lChainMethods.rb'
 
-# configuracion de la cadena de datos (se debe agregar esta info luego al stream de chains)
 config = YAML.load(File.read('logchain.conf'))
 server=Server.new(config['chain'],config['user'],config['pass'],config['serverip'],config['port'])
+
 
 
 def insert()
@@ -27,16 +27,12 @@ insertDataStreamKey(server,dato)
 end
 
 
-def insertData(configHash,server) 
+def 
+
 
 tumbral=60           #Tiempo en segundos para cambio de key en blockchain
 refresh=1
 logall=''
-
-
-
-
-exit 0
 
 
 file='/tmp/dart'
@@ -65,4 +61,4 @@ File.open(file) do |log|
 end
 
 
-end
+

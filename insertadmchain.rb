@@ -26,15 +26,14 @@ end
 
 
 hash='{
-"hostnameFQDN"=>"logchain11.0rnitorrinco.test",
-"pool"=>"1",
-"Serverstatus"=>true,
-"servicios"=>[
-{"name"=>"service1", "path"=>"/tmp/service1", "defaultpath"=>"/var/log", "status"=>true, "warningsize"=>"100k"},
-{"nombre"=>"service2", "path"=>"/tmp/service2", "defaultpath"=>"/var/log", "status"=>false, "warningsize"=>"100k"}]
+  "name": "201901_1",
+  "port": "5793",
+  "rpcport": "5792",
+  "user": "multichainrpc",
+  "pass": BWNscuyfuUoPP2A6YnisJcbnXq9Vk55WcFGs9Qi13tip,
+  "pool": "1"
 }'
 
-
 		hash=hash.unpack('H*').to_s.gsub("\"","").gsub("[","").gsub("]","")
-		dato=Dato.new(admchain.getServerstream,Socket.gethostname,"id1",hash)
+		dato=Dato.new(admchain.getChainstream,Socket.gethostname,"id1",hash)
 		insertDataStreamAdmKey(admchain,dato)
